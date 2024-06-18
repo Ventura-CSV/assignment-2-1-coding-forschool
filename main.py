@@ -5,10 +5,11 @@ def main():
     Use m_perc, f_perc, nb_perc for your results
     ##################################################
     """
-    students = int(input("Enter Number of Total Students: "))
     m = int(input("Enter Total Numbers of Males: "))
     f = int(input("Enter Total Numbers of Females: "))
     nb = int(input("Enter Total Numbers of Non-Binary: "))
+    
+    students = m + f + nb
     
     m_perc = (m / students)*100
     f_perc = (f / students)*100
